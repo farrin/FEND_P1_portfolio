@@ -1,0 +1,64 @@
+body {
+    font-family: "Lato", sans-serif;
+    color: #990000;
+    font-weight: 300;
+}
+hr {
+    border: none;
+    height: 4px;
+    /* Set the hr color */
+    
+    color: #8C8888;
+    /* old IE */
+    
+    background-color: #8C8888;
+    /* Modern Browsers */
+}
+.text-muted {
+    color: #8C8888;
+}
+.text-thin {
+    font-weight: 100;
+}
+a:link {
+    color: #4682B4;
+    text-decoration: none;
+}
+.title-super {
+    font-size: 50px;
+}
+.title-logo {
+    margin-top: 20px;
+}
+#header {
+    background: #fff;
+}
+#footer {
+    background-color: #E5E5E5;
+    padding-top: 50px;
+    text-align: center;
+}
+.banner {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+.row {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+    .title-logo {
+        display: block;
+        margin: 0 auto;
+    }
+    .title-text {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 991px) {
+    .img-featured {
+        margin: 0 auto;
+    }
+}
